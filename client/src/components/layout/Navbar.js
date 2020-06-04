@@ -10,4 +10,9 @@ Navbar.propTypes = {
   icon: PropTypes.string
 };
 
+Navbar.defaultProps = {
+  title: 'Contact Keeper',
+  icon: ''
+};
+
 export default Navbar;
